@@ -3,10 +3,8 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  devtool: 'cheap-module-eval-source-map',
     entry: {
       app: [
-          'webpack-hot-middleware/client',
           './src/index.jsx'
       ]
     },
